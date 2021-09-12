@@ -2,22 +2,24 @@
 /* CSS Document */
 
 body {
-  font-family: "Georgia", serif;
+  font-family: "Gorgia", serif;
   color: #000000;
   line-height: 140%;
   margin: 30px;
   background-image: url('page-bg.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #F7F3DE
+  background-color: #F7F3DE;
 }
 
 header h1 {
   font-size: 350%;
-  color: #7C1A00
-  padding: 40px 40px 40px 120px;
+  color: #7C1A00;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 120px;
   background-image: url("header-image-1.gif");
-  background-position: left top;
   background-repeat: no-repeat;
 }
 
@@ -34,11 +36,11 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: ##7C1A00;
+  color: #7C1A00;
 }
 
 nav li {
-  margin: 10;
+  margin: 10px;
   border: 1px;
   border-style: solid;
   border-color: #7C1A00;
