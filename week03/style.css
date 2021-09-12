@@ -58,3 +58,56 @@ nav a:hover{
   background-color: #7C1A00;
 
 }
+
+
+#content {
+  background-image: url('trans-bg.gif');
+  border: 1px solid #CCCCCC;
+  margin-left: 180px;
+  padding: 10px;
+
+}
+
+footer{
+clear: both;
+text-align:
+}
+
+footer li {
+display: inline;
+padding: 10px;
+}
+
+h1  {
+  color: #8C9273;
+}
+
+h2  {
+   border-left: 20px solid #8C9273;
+   border-bottom: 5px solid #8C9273;
+   padding-left: 5px;
+ }
+
+
+h3 {
+  background-image: url("header-star-1.gif");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+blockquote {
+  background-color: #FFE597;
+}
+
+ul {
+list-style-type: square;
+}
+
+a {
+  color: #7C1A00;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #FFE597;
+}
