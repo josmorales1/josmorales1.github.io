@@ -6,4 +6,6 @@ body {
   color: #000000;
   line-height: 140%;
   margin: 30px;
+  background-image: url('page-bg.gif');
+  background-repeat: no-repeat;
 }
