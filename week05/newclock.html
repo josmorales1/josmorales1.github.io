@@ -11,7 +11,7 @@
     var hours = now.getHours();
     var minutes = now.getMinutes();
     var seconds = now.getSeconds();
-        
+
     // add leading zero's to minutes and seconds
   if (minutes < 10) {
     minutes = '0' + minutes;
@@ -32,7 +32,7 @@
   if (hours > 12) {
     hours = hours - 12;
   }
-        
+
 
     // splice them together into a character string named "currentTime"
     var currentTime = hours + ':' + minutes + ':' + seconds + '  ' + timeOfDay;
@@ -46,8 +46,17 @@
     </script>
       <style>
     div#clock {
-        background-color: 
-      
+      text-align: center;
+      background-color: #000080;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      width: 100px;
+      font-family: monospace;
+
+
+
+
     }
   </style>
   </head>
